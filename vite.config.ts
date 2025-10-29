@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/ZMZ-DOKUMENT/", // 👈 МІНЕ ОСЫ ЖАҢА ЖОЛ ҚОСЫЛДЫ
   server: {
     host: "::",
     port: 8080,
